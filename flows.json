@@ -1,0 +1,4142 @@
+[
+    {
+        "id": "e1e92bc46becfac6",
+        "type": "tab",
+        "label": "Main",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "54086543c2b8b8d0",
+        "type": "tab",
+        "label": "Central fotovoltaica",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "22312e5729d3992e",
+        "type": "tab",
+        "label": "Alertas",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0f45c8dc3581baaa",
+        "type": "tab",
+        "label": "IO PLC",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bd827fc16c01046f",
+        "type": "ui_tab",
+        "name": "Captación Solar y Viento",
+        "icon": "wi-darksky-clear-day",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e214c6ecb6304d18",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#57e389",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#57e389",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#57e389",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#99eeb7",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#57e389",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial,Arial,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "S2Photoenergy",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "87c523608bd5947c",
+        "type": "ui_group",
+        "name": "Panel Solar",
+        "tab": "bd827fc16c01046f",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b06f0b0909b0590c",
+        "type": "ui_group",
+        "name": "Viento",
+        "tab": "bd827fc16c01046f",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "fd698a787397c27b",
+        "type": "ui_group",
+        "name": "Baterías",
+        "tab": "8c05bfa2f3558b59",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "8c05bfa2f3558b59",
+        "type": "ui_tab",
+        "name": "Almacenamiento y suministro eléctrico",
+        "icon": "power",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7f2c26fd9a2146d1",
+        "type": "ui_group",
+        "name": "Transformadores",
+        "tab": "8c05bfa2f3558b59",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b82da486.9fc8d8",
+        "type": "ui_group",
+        "name": "Sign-in",
+        "tab": "d65502b1.ee517",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4de9506d.e7364",
+        "type": "ui_group",
+        "name": "Fecha",
+        "tab": "d65502b1.ee517",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d65502b1.ee517",
+        "type": "ui_tab",
+        "name": "Main",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2e57cae81b10fe26",
+        "type": "ui_group",
+        "name": "Alertas",
+        "tab": "d65502b1.ee517",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "91a326e33c773dcc",
+        "type": "ui_spacer",
+        "z": "e1e92bc46becfac6",
+        "name": "spacer",
+        "group": "4de9506d.e7364",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "332f2ea291e108a1",
+        "type": "ui_tab",
+        "name": "IO PLC",
+        "icon": "fa-microchip",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "189272fc807c74a0",
+        "type": "ui_group",
+        "name": "Digital Inputs",
+        "tab": "332f2ea291e108a1",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "64d10795eea43bca",
+        "type": "ui_tab",
+        "name": "Alertas",
+        "icon": "fa-exclamation-circle",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3c79198cfd2de7fa",
+        "type": "ui_group",
+        "name": "Alertas",
+        "tab": "64d10795eea43bca",
+        "order": 1,
+        "disp": false,
+        "width": "35",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e8bc6a2ce16e53f3",
+        "type": "ui_group",
+        "name": "Analogic Inputs",
+        "tab": "332f2ea291e108a1",
+        "order": 3,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b099f5e9eaec7d3b",
+        "type": "ui_group",
+        "name": "Digital Outputs",
+        "tab": "332f2ea291e108a1",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "456c9bbf7f71106f",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "127.0.0.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": "2",
+        "cycletime": "1000",
+        "timeout": "2000",
+        "name": "",
+        "vartable": [
+            {
+                "addr": "DB1,R0",
+                "name": "Sensor1"
+            },
+            {
+                "addr": "DB1,R4",
+                "name": "Sensor2"
+            },
+            {
+                "addr": "DB1,R8",
+                "name": "Sensor3"
+            },
+            {
+                "addr": "DB1,R12",
+                "name": "Sensor4"
+            },
+            {
+                "addr": "DB1,R16",
+                "name": "EncMotor1"
+            },
+            {
+                "addr": "DB1,R20",
+                "name": "EncMotor2"
+            },
+            {
+                "addr": "DB1,R24",
+                "name": "Anemometro"
+            },
+            {
+                "addr": "DB1,R28",
+                "name": "Hora24Format"
+            },
+            {
+                "addr": "DB1,R32",
+                "name": "NivelBateria"
+            },
+            {
+                "addr": "I2.0",
+                "name": "Carga"
+            },
+            {
+                "addr": "I2.1",
+                "name": "Descarga"
+            },
+            {
+                "addr": "I2.2",
+                "name": "StopCarga"
+            },
+            {
+                "addr": "Q2.6",
+                "name": "SelFreq"
+            },
+            {
+                "addr": "Q2.4",
+                "name": "Cargar"
+            },
+            {
+                "addr": "Q2.5",
+                "name": "Descargar"
+            },
+            {
+                "addr": "I2.3",
+                "name": "ButtonFreq"
+            },
+            {
+                "addr": "Q2.0",
+                "name": "Motor1"
+            },
+            {
+                "addr": "Q2.1",
+                "name": "Motor1Inv"
+            },
+            {
+                "addr": "Q2.2",
+                "name": "Motor2"
+            },
+            {
+                "addr": "Q2.3",
+                "name": "Motor2Inv"
+            },
+            {
+                "addr": "DB2,R0",
+                "name": "Voltage"
+            },
+            {
+                "addr": "Q2.7",
+                "name": "Motor1_1"
+            },
+            {
+                "addr": "Q3.0",
+                "name": "Motor1Inv_1"
+            },
+            {
+                "addr": "Q3.1",
+                "name": "Motor2_1"
+            },
+            {
+                "addr": "Q3.2",
+                "name": "Motor2Inv_1"
+            },
+            {
+                "addr": "Q3.3",
+                "name": "Motor1_2"
+            },
+            {
+                "addr": "Q3.4",
+                "name": "Motor1Inv_2"
+            },
+            {
+                "addr": "Q3.5",
+                "name": "Motor2_2"
+            },
+            {
+                "addr": "Q3.6",
+                "name": "Motor2Inv_2"
+            },
+            {
+                "addr": "Q3.7",
+                "name": "Motor1_3"
+            },
+            {
+                "addr": "Q4.0",
+                "name": "Motor1Inv_3"
+            },
+            {
+                "addr": "Q4.1",
+                "name": "Motor2_3"
+            },
+            {
+                "addr": "Q4.2",
+                "name": "Motor2Inv_3"
+            },
+            {
+                "addr": "Q4.3",
+                "name": "Motor1_4"
+            },
+            {
+                "addr": "Q4.4",
+                "name": "Motor1Inv_4"
+            },
+            {
+                "addr": "Q4.5",
+                "name": "Motor2_4"
+            },
+            {
+                "addr": "Q4.6",
+                "name": "Motor2Inv_4"
+            },
+            {
+                "addr": "Q4.7",
+                "name": "Motor1_5"
+            },
+            {
+                "addr": "Q5.0",
+                "name": "Motor1Inv_5"
+            },
+            {
+                "addr": "Q5.1",
+                "name": "Motor2_5"
+            },
+            {
+                "addr": "Q5.2",
+                "name": "Motor2Inv_5"
+            },
+            {
+                "addr": "Q5.3",
+                "name": "Motor1_6"
+            },
+            {
+                "addr": "Q5.4",
+                "name": "Motor1Inv_6"
+            },
+            {
+                "addr": "Q5.5",
+                "name": "Motor2_6"
+            },
+            {
+                "addr": "Q5.6",
+                "name": "Motor2Inv_6"
+            },
+            {
+                "addr": "Q5.7",
+                "name": "Motor1_7"
+            },
+            {
+                "addr": "Q6.0",
+                "name": "Motor1Inv_7"
+            },
+            {
+                "addr": "Q6.1",
+                "name": "Motor2_7"
+            },
+            {
+                "addr": "Q6.2",
+                "name": "Motor2Inv_7"
+            },
+            {
+                "addr": "Q6.3",
+                "name": "Motor1_8"
+            },
+            {
+                "addr": "Q6.4",
+                "name": "Motor1Inv_8"
+            },
+            {
+                "addr": "Q6.5",
+                "name": "Motor2_8"
+            },
+            {
+                "addr": "Q6.6",
+                "name": "Motor2Inv_8"
+            },
+            {
+                "addr": "Q6.7",
+                "name": "Motor1_9"
+            },
+            {
+                "addr": "Q7.0",
+                "name": "Motor1Inv_9"
+            },
+            {
+                "addr": "Q7.1",
+                "name": "Motor2_9"
+            },
+            {
+                "addr": "Q7.2",
+                "name": "Motor2Inv_9"
+            },
+            {
+                "addr": "Q7.3",
+                "name": "Motor1_10"
+            },
+            {
+                "addr": "Q7.4",
+                "name": "Motor1Inv_10"
+            },
+            {
+                "addr": "Q7.5",
+                "name": "Motor2_10"
+            },
+            {
+                "addr": "Q7.6",
+                "name": "Motor2Inv_10"
+            },
+            {
+                "addr": "Q7.7",
+                "name": "Motor1_11"
+            },
+            {
+                "addr": "Q8.0",
+                "name": "Motor1Inv_11"
+            },
+            {
+                "addr": "Q8.1",
+                "name": "Motor2_11"
+            },
+            {
+                "addr": "Q8.2",
+                "name": "Motor2Inv_11"
+            },
+            {
+                "addr": "DB1,R36",
+                "name": "SelVoltage"
+            },
+            {
+                "addr": "DB1,R40",
+                "name": "Sensor1_1"
+            },
+            {
+                "addr": "DB1,R44",
+                "name": "Sensor2_1"
+            },
+            {
+                "addr": "DB1,R48",
+                "name": "Sensor3_1"
+            },
+            {
+                "addr": "DB1,R52",
+                "name": "Sensor4_1"
+            },
+            {
+                "addr": "DB1,R56",
+                "name": "EncMotor1_1"
+            },
+            {
+                "addr": "DB1,R60",
+                "name": "EncMotor2_1"
+            },
+            {
+                "addr": "DB1,R64",
+                "name": "Sensor1_2"
+            },
+            {
+                "addr": "DB1,R68",
+                "name": "Sensor2_2"
+            },
+            {
+                "addr": "DB1,R72",
+                "name": "Sensor3_2"
+            },
+            {
+                "addr": "DB1,R76",
+                "name": "Sensor4_2"
+            },
+            {
+                "addr": "DB1,R80",
+                "name": "EncMotor1_2"
+            },
+            {
+                "addr": "DB1,R84",
+                "name": "EncMotor2_2"
+            },
+            {
+                "addr": "DB1,R88",
+                "name": "Sensor1_3"
+            },
+            {
+                "addr": "DB1,R92",
+                "name": "Sensor2_3"
+            },
+            {
+                "addr": "DB1,R96",
+                "name": "Sensor3_3"
+            },
+            {
+                "addr": "DB1,R100",
+                "name": "Sensor4_3"
+            },
+            {
+                "addr": "DB1,R104",
+                "name": "EncMotor1_3"
+            },
+            {
+                "addr": "DB1,R108",
+                "name": "EncMotor2_3"
+            },
+            {
+                "addr": "DB1,R112",
+                "name": "Sensor1_4"
+            },
+            {
+                "addr": "DB1,R116",
+                "name": "Sensor2_4"
+            },
+            {
+                "addr": "DB1,R120",
+                "name": "Sensor3_4"
+            },
+            {
+                "addr": "DB1,R124",
+                "name": "Sensor4_4"
+            },
+            {
+                "addr": "DB1,R128",
+                "name": "EncMotor1_4"
+            },
+            {
+                "addr": "DB1,R132",
+                "name": "EncMotor2_4"
+            },
+            {
+                "addr": "DB1,R136",
+                "name": "Sensor1_5"
+            },
+            {
+                "addr": "DB1,R140",
+                "name": "Sensor2_5"
+            },
+            {
+                "addr": "DB1,R144",
+                "name": "Sensor3_5"
+            },
+            {
+                "addr": "DB1,R148",
+                "name": "Sensor4_5"
+            },
+            {
+                "addr": "DB1,R152",
+                "name": "EncMotor1_5"
+            },
+            {
+                "addr": "DB1,R156",
+                "name": "EncMotor2_5"
+            },
+            {
+                "addr": "DB1,R160",
+                "name": "Sensor1_6"
+            },
+            {
+                "addr": "DB1,R164",
+                "name": "Sensor2_6"
+            },
+            {
+                "addr": "DB1,R168",
+                "name": "Sensor3_6"
+            },
+            {
+                "addr": "DB1,R172",
+                "name": "Sensor4_6"
+            },
+            {
+                "addr": "DB1,R176",
+                "name": "EncMotor1_6"
+            },
+            {
+                "addr": "DB1,R180",
+                "name": "EncMotor2_6"
+            },
+            {
+                "addr": "DB1,R184",
+                "name": "Sensor1_7"
+            },
+            {
+                "addr": "DB1,R188",
+                "name": "Sensor2_7"
+            },
+            {
+                "addr": "DB1,R192",
+                "name": "Sensor3_7"
+            },
+            {
+                "addr": "DB1,R196",
+                "name": "Sensor4_7"
+            },
+            {
+                "addr": "DB1,R200",
+                "name": "EncMotor1_7"
+            },
+            {
+                "addr": "DB1,R204",
+                "name": "EncMotor2_7"
+            },
+            {
+                "addr": "DB1,R208",
+                "name": "Sensor1_8"
+            },
+            {
+                "addr": "DB1,R212",
+                "name": "Sensor2_8"
+            },
+            {
+                "addr": "DB1,R216",
+                "name": "Sensor3_8"
+            },
+            {
+                "addr": "DB1,R220",
+                "name": "Sensor4_8"
+            },
+            {
+                "addr": "DB1,R224",
+                "name": "EncMotor1_8"
+            },
+            {
+                "addr": "DB1,R228",
+                "name": "EncMotor2_8"
+            },
+            {
+                "addr": "DB1,R232",
+                "name": "Sensor1_9"
+            },
+            {
+                "addr": "DB1,R236",
+                "name": "Sensor2_9"
+            },
+            {
+                "addr": "DB1,R240",
+                "name": "Sensor3_9"
+            },
+            {
+                "addr": "DB1,R244",
+                "name": "Sensor4_9"
+            },
+            {
+                "addr": "DB1,R248",
+                "name": "EncMotor1_9"
+            },
+            {
+                "addr": "DB1,R252",
+                "name": "EncMotor2_9"
+            },
+            {
+                "addr": "DB1,R256",
+                "name": "Sensor1_10"
+            },
+            {
+                "addr": "DB1,R260",
+                "name": "Sensor2_10"
+            },
+            {
+                "addr": "DB1,R264",
+                "name": "Sensor3_10"
+            },
+            {
+                "addr": "DB1,R268",
+                "name": "Sensor4_10"
+            },
+            {
+                "addr": "DB1,R272",
+                "name": "EncMotor1_10"
+            },
+            {
+                "addr": "DB1,R276",
+                "name": "EncMotor2_10"
+            },
+            {
+                "addr": "DB1,R280",
+                "name": "Sensor1_11"
+            },
+            {
+                "addr": "DB1,R284",
+                "name": "Sensor2_11"
+            },
+            {
+                "addr": "DB1,R288",
+                "name": "Sensor3_11"
+            },
+            {
+                "addr": "DB1,R292",
+                "name": "Sensor4_11"
+            },
+            {
+                "addr": "DB1,R296",
+                "name": "EncMotor1_11"
+            },
+            {
+                "addr": "DB1,R300",
+                "name": "EncMotor2_11"
+            }
+        ]
+    },
+    {
+        "id": "dba9099c0c0dd835",
+        "type": "ui_group",
+        "name": "Analogic Outputs",
+        "tab": "332f2ea291e108a1",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bd456e4e.359d8",
+        "type": "ui_form",
+        "z": "e1e92bc46becfac6",
+        "name": "Sign-In",
+        "label": "",
+        "group": "b82da486.9fc8d8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "username",
+                "value": "username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "",
+        "topic": "",
+        "topicType": "str",
+        "splitLayout": false,
+        "className": "",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "a926c1ff.ede37",
+                "6c48f93c0c6d750a",
+                "ea809461.f36198"
+            ]
+        ]
+    },
+    {
+        "id": "6603f3ab.d89abc",
+        "type": "debug",
+        "z": "e1e92bc46becfac6",
+        "name": "Debug Account Log ",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ea809461.f36198",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Account Log",
+        "func": "var accountlog =  flow.get(\"accountlog\") || [] ; \nvar accounts =  flow.get(\"accounts\") || [ { username : \"admin\", password : \"admin\"},{ username : \"guest\", password : \"guest\"}] ; \n\nfor (var i=0; i< accounts.length; i++){\n    if (accounts[i].username == msg.payload.username && accounts[i].password==msg.payload.password){\n        accountlog.push({ accessAt : new Date(), username : msg.payload.username, valid : true});\n    }else{\n        accountlog.push({ accessAt : new Date(), username : msg.payload.username, valid : false});\n    }\n}\n\nflow.set(\"accountlog\", accountlog);\n\nmsg.payload = accountlog;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n//var accountlog = [];\n//flow.set(\"accountlog\", accountlog);",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 40,
+        "wires": [
+            [
+                "6603f3ab.d89abc"
+            ]
+        ]
+    },
+    {
+        "id": "a926c1ff.ede37",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Account Verification",
+        "func": "var accounts =  flow.get(\"accounts\") || [ { username : \"admin\", password : \"admin\"},{ username : \"guest\", password : \"guest\"}] ; \n\nvar username = msg.payload.username ;\nvar password = msg.payload.password ; \n\nmsg.payload = 1;\n\naccounts.forEach(function ( account ){\n    if ( account.username == username ) {\n       msg.payload = 2;\n       if ( account.password == password ) {\n           msg.payload = 0;\n       } \n    }\n});\n\nif ( msg.payload == 0 ) {\n  var currentsocketid = flow.get(\"clientid\") || undefined;\n  if ( currentsocketid !== undefined && currentsocketid !== msg.socketid ){\n        msg.payload = 3;\n  } \n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 160,
+        "wires": [
+            [
+                "88afc196.8abc2"
+            ]
+        ]
+    },
+    {
+        "id": "88afc196.8abc2",
+        "type": "switch",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 630,
+        "y": 160,
+        "wires": [
+            [
+                "eefb7b9e.f5daa8"
+            ],
+            [
+                "2f57eca.40fa214"
+            ],
+            [
+                "2f57eca.40fa214"
+            ],
+            [
+                "126fd334.ed13ed"
+            ]
+        ]
+    },
+    {
+        "id": "eefb7b9e.f5daa8",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "= 0 : Success",
+        "func": "var sessionTimer =  flow.get(\"sessionTimer\") || 0; \nvar currTime = Date.now();\nflow.set(\"sessionTimer\", currTime);\nflow.set(\"clientid\", msg.socketid);\n\n\n//Se muestran las ventanas y se esconde el form de sign-in\nmsg.payload = { group: {\n    show: [\"Main_Alertas\", \"Main_Fecha\"],\n    hide : [\"Main_Sign-in\"],\n    },\n    tabs: {show: [\"Mediciones en Tiempo Real\", \"Almacenamiento y suministro eléctrico\",\"Alertas\",\"IO PLC\"]}\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 100,
+        "wires": [
+            [
+                "5c0b7126.396e8"
+            ]
+        ]
+    },
+    {
+        "id": "2f57eca.40fa214",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "= 1/2 : Invalid account",
+        "func": "msg.payload = \"Credenciales invalidas!\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 160,
+        "wires": [
+            [
+                "61e843e4.4d74cc"
+            ]
+        ]
+    },
+    {
+        "id": "5c0b7126.396e8",
+        "type": "ui_ui_control",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "x": 1060,
+        "y": 100,
+        "wires": [
+            [
+                "21c1c95cec464111"
+            ]
+        ]
+    },
+    {
+        "id": "61e843e4.4d74cc",
+        "type": "ui_toast",
+        "z": "e1e92bc46becfac6",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Autentificación fallida",
+        "name": "Authentication Failure Dialog",
+        "x": 1120,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "643a01a8.560ea",
+        "type": "inject",
+        "z": "e1e92bc46becfac6",
+        "name": "Timer",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            [
+                "bc828c1d.b3504",
+                "f6900b2.d3e9ef8"
+            ]
+        ]
+    },
+    {
+        "id": "bc828c1d.b3504",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Detect Session Timer",
+        "func": "var sessionTimer =  flow.get(\"sessionTimer\") || 0; \nvar currTime = Date.now();\nvar SESSION_TIMEOUT = 1800000; //30min=1800000\n\nif ( sessionTimer === 0 /* Inactive, No user signed in */ ) {\n      msg.payload = 2;\n} else {\n    if ( currTime - sessionTimer > SESSION_TIMEOUT ) {\n      msg.payload = 0;  \n    } else {\n      msg.payload = 1;        \n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 400,
+        "wires": [
+            [
+                "50a18f10.e23c2"
+            ]
+        ]
+    },
+    {
+        "id": "50a18f10.e23c2",
+        "type": "switch",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 630,
+        "y": 440,
+        "wires": [
+            [
+                "5b39c16e.da2f"
+            ],
+            [
+                "91c7a0ab.ec163"
+            ],
+            [
+                "71d9aa2e.665fd4",
+                "5fcf8b3a5518a5d0"
+            ]
+        ]
+    },
+    {
+        "id": "5b39c16e.da2f",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Time-Out",
+        "func": "/* activate session timer */\nvar sessionTimer =  flow.get(\"sessionTimer\") || 0; \nflow.set(\"sessionTimer\", 0);\n\nmsg.socketid = flow.get(\"clientid\") || undefined;\nmsg.payload = \"Inicie sesion de nuevo.\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 420,
+        "wires": [
+            [
+                "d29000e.556e5",
+                "a3d5d44d.a71ce8",
+                "9fa2994e5cb02be5"
+            ]
+        ]
+    },
+    {
+        "id": "d29000e.556e5",
+        "type": "ui_toast",
+        "z": "e1e92bc46becfac6",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Sesión expirada",
+        "name": "Time-Out Dialog",
+        "x": 1080,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8859efbd.09b1b",
+        "type": "ui_ui_control",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "x": 1280,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a3d5d44d.a71ce8",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Hide All tabs",
+        "func": "var msg = {};\n\nmsg.socketid = flow.get(\"clientid\") || undefined;\nmsg.payload = { group: {\n    hide : [\"Main_Alertas\", \"Main_Fecha\"],\n    show : [\"Main_Sign-in\"],\n    focus: true\n    },\n    tabs: {hide: [\"Mediciones en Tiempo Real\", \"Almacenamiento y suministro eléctrico\",\"Alertas\",\"IO PLC\"]\n    }\n};\n\nflow.set(\"clientid\", undefined);\nflow.set(\"clientip\", undefined);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 420,
+        "wires": [
+            [
+                "8859efbd.09b1b"
+            ]
+        ]
+    },
+    {
+        "id": "de95afea.546e3",
+        "type": "ui_toast",
+        "z": "e1e92bc46becfac6",
+        "position": "bottom right",
+        "displayTime": "1",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Timer",
+        "name": "Display Remaining Time",
+        "x": 870,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "f6900b2.d3e9ef8",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Calculate Remaining Time",
+        "func": "var sessionTimer =  flow.get(\"sessionTimer\") || 0; \nvar currTime = Date.now();\nvar remainingSecs = Math.floor((1800000 - (currTime - sessionTimer))/1000) + 1;\n    \nif ( sessionTimer == 0 /* Inactive, No user signed in */ ) {\n    return null;\n} else {\n    \n    if ( remainingSecs <= 30 && remainingSecs>-1 ) msg.payload = \"Remaining : \" + remainingSecs + \" secs\";  \n    else return null;\n}\n\nmsg.socketid = flow.get(\"clientid\") || undefined;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 600,
+        "wires": [
+            [
+                "de95afea.546e3"
+            ]
+        ]
+    },
+    {
+        "id": "f6f225f9.0408b8",
+        "type": "ui_ui_control",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "x": 1060,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91c7a0ab.ec163",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Sensor/History Goup",
+        "func": "var msg = {};\nmsg.socketid = flow.get(\"clientid\") || undefined;\nmsg.payload = { group: {\n    show : [\"Main_Alertas\", \"Main_Fecha\"],\n    hide : [\"Main_Sign-in\"]\n},\ntabs: {show: [\"Mediciones en Tiempo Real\", \"Almacenamiento y suministro eléctrico\",\"Alertas\",\"IO PLC\"]}\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 460,
+        "wires": [
+            [
+                "f6f225f9.0408b8"
+            ]
+        ]
+    },
+    {
+        "id": "71d9aa2e.665fd4",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Signin Goup",
+        "func": "var msg = {};\nmsg.payload = { group: {\n    hide : [\"Main_Alertas\", \"Main_Fecha\"],\n    show : [\"Main_Sign-in\"]\n    },\n    tabs: {hide: [\"Mediciones en Tiempo Real\", \"Almacenamiento y suministro eléctrico\",\"Alertas\",\"IO PLC\"]}\n};\nmsg.socketid = flow.get(\"clientid\") || undefined;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 500,
+        "wires": [
+            [
+                "a2bd5885.a386c8"
+            ]
+        ]
+    },
+    {
+        "id": "a2bd5885.a386c8",
+        "type": "ui_ui_control",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "x": 1060,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "126fd334.ed13ed",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "= 3 : System In Use",
+        "func": "//var currentsocketid = flow.get(\"clientid2\") || undefined;\n\nmsg.payload = \"El sistema SCADA esta siendo utilizado por otro usuario.\";\n//msg.socketid = currentsocketid;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 220,
+        "wires": [
+            [
+                "61e843e4.4d74cc"
+            ]
+        ]
+    },
+    {
+        "id": "e78bfb4b6cd2d83b",
+        "type": "ui_text",
+        "z": "e1e92bc46becfac6",
+        "group": "4de9506d.e7364",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 650,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "31d1d6eb5dc9eede",
+        "type": "inject",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 740,
+        "wires": [
+            [
+                "8b3b4eb905610c8f",
+                "6204726a8eb09dcc",
+                "a752c68bef4193d7"
+            ]
+        ]
+    },
+    {
+        "id": "8b3b4eb905610c8f",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Control clock",
+        "func": "//var timestamp = msg.payload;\n//let time = new Date(timestamp).toLocaleTimeString();\nvar fecha=new Date();\n\nvar dia = fecha.getDate();\nvar mes = fecha.getMonth()+1; \nvar anio = fecha.getFullYear();\nvar horas = fecha.getHours();\nvar minutos = fecha.getMinutes();\nvar segundos = fecha.getSeconds();\n\nmsg.payload= `${dia < 10 ? '0' : ''}${dia}-${mes < 10 ? '0' : ''}${mes}-${anio} ${horas < 10 ? '0' : ''}${horas}:${minutos < 10 ? '0' : ''}${minutos}:${segundos < 10 ? '0' : ''}${segundos}`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 740,
+        "wires": [
+            [
+                "e78bfb4b6cd2d83b"
+            ]
+        ]
+    },
+    {
+        "id": "74034919a9f229c8",
+        "type": "ui_text",
+        "z": "e1e92bc46becfac6",
+        "group": "2e57cae81b10fe26",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Número de alertas:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 690,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "6204726a8eb09dcc",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Get Alerts",
+        "func": "msg.payload= global.get('numalert') || 0;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 800,
+        "wires": [
+            [
+                "74034919a9f229c8"
+            ]
+        ]
+    },
+    {
+        "id": "58dbcca983165b40",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Show sign-in and anything else",
+        "func": "var currentsocketip = global.get(\"clientip\") || undefined;\nvar currentsocketid = flow.get(\"clientid\") || undefined;\n\nif (currentsocketip !== msg.socketip){\n    msg.payload = {group: {\n    hide: [\"Main_Alertas\", \"Main_Fecha\"],\n    show: [\"Main_Sign-in\"]\n    },\n    tabs: {hide: [\"Mediciones en Tiempo Real\", \"Almacenamiento y suministro eléctrico\",\"Alertas\",\"IO PLC\"]}\n    };\n    return msg;\n}else if (currentsocketid !== msg.socketid){\n    msg.payload = {group: {\n    hide: [\"Main_Sign-in\"]}\n    };\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "cc912f60a545d84b"
+            ]
+        ]
+    },
+    {
+        "id": "cc912f60a545d84b",
+        "type": "ui_ui_control",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "events": "all",
+        "x": 820,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6dc6182a36983168",
+        "type": "ui_ui_control",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "events": "all",
+        "x": 1280,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9fa2994e5cb02be5",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Sign-In Redirection",
+        "func": "msg.payload={\"tab\":\"Main\"}\nmsg.socketid = flow.get(\"clientid\") || undefined;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 340,
+        "wires": [
+            [
+                "6dc6182a36983168"
+            ]
+        ]
+    },
+    {
+        "id": "78a9cdb0b4b1b5da",
+        "type": "ui_ui_control",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "events": "all",
+        "x": 1060,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5fcf8b3a5518a5d0",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Sign-In Redirection",
+        "func": "msg.payload={\"tab\":\"Main\"}\nmsg.socketid = flow.get(\"clientid\") || undefined;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 540,
+        "wires": [
+            [
+                "78a9cdb0b4b1b5da"
+            ]
+        ]
+    },
+    {
+        "id": "a752c68bef4193d7",
+        "type": "ui_clock",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "group": "4de9506d.e7364",
+        "order": 2,
+        "width": "4",
+        "height": "4",
+        "x": 430,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "6c48f93c0c6d750a",
+        "type": "debug",
+        "z": "e1e92bc46becfac6",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f19d6504d90acc02",
+        "type": "ui_ui_control",
+        "z": "e1e92bc46becfac6",
+        "name": "",
+        "events": "connect",
+        "x": 180,
+        "y": 280,
+        "wires": [
+            [
+                "58dbcca983165b40",
+                "4688473a0a9928c8"
+            ]
+        ]
+    },
+    {
+        "id": "21c1c95cec464111",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Set client IP",
+        "func": "var currentsocketid = flow.get(\"clientid\") || undefined;\nif (currentsocketid == msg.socketid){\n    global.set(\"clientip\", msg.socketip);\n    msg.payload = msg.socketip;\n}else{\n    msg.payload = currentsocketid;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4688473a0a9928c8",
+        "type": "function",
+        "z": "e1e92bc46becfac6",
+        "name": "Sign-In Redirection",
+        "func": "msg.payload={\"tab\":\"Main\"}\n//msg.socketid = flow.get(\"clientid\") || undefined;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "cc912f60a545d84b"
+            ]
+        ]
+    },
+    {
+        "id": "b4ebf9480406b729",
+        "type": "ui_chart",
+        "z": "54086543c2b8b8d0",
+        "name": "Grafica historico",
+        "group": "87c523608bd5947c",
+        "order": 3,
+        "width": "10",
+        "height": "9",
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "auto",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ed333b",
+            "#62a0ea",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#ed333b",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1000,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca43781381200b50",
+        "type": "file",
+        "z": "54086543c2b8b8d0",
+        "name": "",
+        "filename": "historico",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 440,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0df0e4c037f8546c",
+        "type": "ui_gauge",
+        "z": "54086543c2b8b8d0",
+        "name": "Viento",
+        "group": "b06f0b0909b0590c",
+        "order": 0,
+        "width": "10",
+        "height": "5",
+        "gtype": "gage",
+        "title": "",
+        "label": "m/s",
+        "format": "{{payload.viento}}",
+        "min": 0,
+        "max": "15",
+        "colors": [
+            "#cdab8f",
+            "#ffbe6f",
+            "#99c1f1"
+        ],
+        "seg1": "5",
+        "seg2": "10",
+        "x": 710,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "400f509302127b0a",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Get wind",
+        "func": "var viento=Math.round(msg.payload.Anemometro * 100) / 100;\nmsg.payload={}\n\nglobal.set(\"viento\",viento);\nmsg.payload.viento=viento;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 360,
+        "wires": [
+            [
+                "0df0e4c037f8546c"
+            ]
+        ]
+    },
+    {
+        "id": "77c573573dc9e9d8",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Get baterylvl",
+        "func": "var bateria=msg.payload.NivelBateria;\nmsg.payload={}\n\nglobal.set(\"bateria\",bateria);\nmsg.payload.bateria=bateria;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 420,
+        "wires": [
+            [
+                "2ba404f84991d68d"
+            ]
+        ]
+    },
+    {
+        "id": "2ba404f84991d68d",
+        "type": "ui_gauge",
+        "z": "54086543c2b8b8d0",
+        "name": "Nivel de las baterias",
+        "group": "fd698a787397c27b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "",
+        "label": "%",
+        "format": "{{payload.bateria}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#cdab8f",
+            "#ffbe6f",
+            "#99c1f1"
+        ],
+        "seg1": "5",
+        "seg2": "10",
+        "x": 760,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b200af54057d8381",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Get sensors data",
+        "func": "var sensor1=0;\nvar sensor2=0;\nvar sensor3=0;\nvar sensor4=0;\nvar panel=global.get(\"panel\") || \"Panel 0\";\n\nif (panel == \"Panel 0\"){\n    sensor1 = Math.round(msg.payload.Sensor1 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4 * 100) / 100;\n\n    var historico = global.get('historico') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 1\"){\n    sensor1 = Math.round(msg.payload.Sensor1_1 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_1 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_1 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_1 * 100) / 100;\n\n    var historico = global.get('historico1') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico1', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 2\") {\n    sensor1 = Math.round(msg.payload.Sensor1_2 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_2 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_2 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_2 * 100) / 100;\n\n    var historico = global.get('historico2') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico2', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 3\") {\n    sensor1 = Math.round(msg.payload.Sensor1_3 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_3 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_3 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_3 * 100) / 100;\n\n    var historico = global.get('historico3') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico3', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 4\") {\n    sensor1 = Math.round(msg.payload.Sensor1_4 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_4 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_4 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_4 * 100) / 100;\n\n    var historico = global.get('historico4') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico4', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 5\") {\n    sensor1 = Math.round(msg.payload.Sensor1_5 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_5 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_5 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_5 * 100) / 100;\n\n    var historico = global.get('historico5') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico5', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 6\") {\n    sensor1 = Math.round(msg.payload.Sensor1_6 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_6 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_6 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_6 * 100) / 100;\n\n    var historico = global.get('historico6') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico6', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 7\") {\n    sensor1 = Math.round(msg.payload.Sensor1_7 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_7 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_7 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_7 * 100) / 100;\n\n        var historico = global.get('historico7') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico7', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 8\") {\n    sensor1 = Math.round(msg.payload.Sensor1_8 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_8 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_8 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_8 * 100) / 100;\n\n    var historico = global.get('historico8') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico8', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 9\") {\n    sensor1 = Math.round(msg.payload.Sensor1_9 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_9 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_9 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_9 * 100) / 100;\n\n    var historico = global.get('historico9') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico9', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 10\") {\n    sensor1 = Math.round(msg.payload.Sensor1_10 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_10 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_10 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_10 * 100) / 100;\n\n    var historico = global.get('historico10') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico10', historico);\n    msg.payload = historico;\n\n} else if (panel == \"Panel 11\") {\n    sensor1 = Math.round(msg.payload.Sensor1_11 * 100) / 100;\n    sensor2 = Math.round(msg.payload.Sensor2_11 * 100) / 100;\n    sensor3 = Math.round(msg.payload.Sensor3_11 * 100) / 100;\n    sensor4 = Math.round(msg.payload.Sensor4_11 * 100) / 100;\n\n    var historico = global.get('historico11') || [];\n\n    historico.push({\n        timestamp: new Date().getTime(),\n        Sensor1: sensor1,\n        Sensor2: sensor2,\n        Sensor3: sensor3,\n        Sensor4: sensor4\n    });\n\n    // Verifica si el historial tiene más de 500 entradas\n    if (historico.length > 500) {\n        // Ordena el historial por fecha y elimina la entrada más antigua\n        historico.sort((a, b) => a.timestamp - b.timestamp);\n        historico.shift(); // Elimina el primer elemento (el más antiguo)\n    }\n\n    global.set('historico11', historico);\n    msg.payload = historico;\n\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n//var historico = [];\n//global.set('historico', historico);",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 100,
+        "wires": [
+            [
+                "d5b93ca4dd1dd8a6"
+            ]
+        ]
+    },
+    {
+        "id": "d5b93ca4dd1dd8a6",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Convert to chart format",
+        "func": "var sample;\nvar sensor1=[];\nvar sensor2=[];\nvar sensor3=[];\nvar sensor4=[];\nvar key;\nvar medida1;\nvar medida2;\nvar medida3;\nvar medida4;\nvar fecha;\n\nfor (sample of msg.payload){\n    fecha=new Date(sample.timestamp);\n    fecha=fecha.getTime();\n    medida1={\"x\":fecha,\"y\":sample.Sensor1};\n    medida2={\"x\":fecha,\"y\":sample.Sensor2};\n    medida3={\"x\":fecha,\"y\":sample.Sensor3};\n    medida4={\"x\":fecha,\"y\":sample.Sensor4};\n    sensor1.push(medida1);\n    sensor2.push(medida2);\n    sensor3.push(medida3);\n    sensor4.push(medida4);\n}\n\n\nmsg.payload=[{\n    \"series\":[\"Sensor1\",\"Sensor2\",\"Sensor3\",\"Sensor4\"],\n    \"data\":[\n        sensor1,sensor2,sensor3,sensor4\n    ],\n    \"labels\":[\"Sensor1\",\"Sensor2\",\"Sensor3\",\"Sensor4\"]    \n}]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 60,
+        "wires": [
+            [
+                "b4ebf9480406b729"
+            ]
+        ]
+    },
+    {
+        "id": "e32ed6a4766caaf6",
+        "type": "ui_button",
+        "z": "54086543c2b8b8d0",
+        "name": "",
+        "group": "87c523608bd5947c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Descargar el historico",
+        "tooltip": "Pulse el boton para descargar un archivo json con todo el historico",
+        "color": "#000000",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "historico",
+        "payloadType": "global",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 500,
+        "wires": [
+            [
+                "ca43781381200b50",
+                "dc64beb18dbd609f"
+            ]
+        ]
+    },
+    {
+        "id": "13431cf445dc3553",
+        "type": "ui_toast",
+        "z": "54086543c2b8b8d0",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Download Dialog",
+        "x": 750,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc64beb18dbd609f",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Create download dialog",
+        "func": "msg.payload =\"La descarga se ha realizado con el nombre historico en su carpeta de usuario\";\nmsg.topic=\"¡Histórico guardado!\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "13431cf445dc3553"
+            ]
+        ]
+    },
+    {
+        "id": "e73738d2ae619578",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Get battery state",
+        "func": "var carga=msg.payload.Cargar;\nvar descarga=msg.payload.Descargar;\nglobal.set(\"cargando\",carga);\nglobal.set(\"descargando\",descarga);\n\nif (carga==true && descarga==true){\n    msg.payload=\"Cargando y descargando al mismo tiempo\";\n}else{\n    if (carga==true){\n        msg.payload=\"Cargando\";\n    }\n    else if (descarga==true){\n        msg.payload=\"Descargando\";\n    }\n    else {\n        msg.payload =\"Standby\";\n    }\n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "bbe2b10ebef07385"
+            ]
+        ]
+    },
+    {
+        "id": "bbe2b10ebef07385",
+        "type": "ui_text",
+        "z": "54086543c2b8b8d0",
+        "group": "fd698a787397c27b",
+        "order": 1,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "Estado:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "x": 720,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a18c4558209010a2",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Datos transformers",
+        "func": "var freq = msg.payload.SelFreq;\nvar volt = Math.round(msg.payload.Voltage * 100) / 100;\n\nif (freq==true){\n    msg.payload.freq=\"60 Hz\";\n}else{\n    msg.payload.freq=\"50 Hz\";\n}\n\nmsg.payload.voltage=volt+\" KV\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 220,
+        "wires": [
+            [
+                "10fd75c92520be90",
+                "dde3d00a8ac92d5c"
+            ]
+        ]
+    },
+    {
+        "id": "10fd75c92520be90",
+        "type": "ui_text",
+        "z": "54086543c2b8b8d0",
+        "group": "7f2c26fd9a2146d1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Frecuencia:",
+        "format": "{{msg.payload.freq}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 730,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "dde3d00a8ac92d5c",
+        "type": "ui_text",
+        "z": "54086543c2b8b8d0",
+        "group": "7f2c26fd9a2146d1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Voltage:",
+        "format": "{{msg.payload.voltage}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 720,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "26a11b9c41318c9f",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Get panel position",
+        "func": "var ejeV;\nvar ejeH;\nvar panel=global.get(\"panel\") || \"Panel 0\";\n\nif (panel == \"Panel 0\"){\n    ejeV = Math.round(msg.payload.EncMotor2 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1 * 100) / 100;\n    msg.label=\"Posición actual del panel 0:\";\n} else if (panel == \"Panel 1\"){\n    ejeV = Math.round(msg.payload.EncMotor2_1 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_1 * 100) / 100;\n    msg.label=\"Posición actual del panel 1:\";\n} else if (panel == \"Panel 2\") {\n    ejeV = Math.round(msg.payload.EncMotor2_2 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_2 * 100) / 100;\n    msg.label=\"Posición actual del panel 2:\";\n} else if (panel == \"Panel 3\") {\n    ejeV = Math.round(msg.payload.EncMotor2_3 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_3 * 100) / 100;\n    msg.label=\"Posición actual del panel 3:\";\n} else if (panel == \"Panel 4\") {\n    ejeV = Math.round(msg.payload.EncMotor2_4 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_4 * 100) / 100;\n    msg.label=\"Posición actual del panel 4:\";\n} else if (panel == \"Panel 5\") {\n    ejeV = Math.round(msg.payload.EncMotor2_5 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_5 * 100) / 100;\n    msg.label=\"Posición actual del panel 5:\";\n} else if (panel == \"Panel 6\") {\n    ejeV = Math.round(msg.payload.EncMotor2_6 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_6 * 100) / 100;\n    msg.label=\"Posición actual del panel 6:\";\n} else if (panel == \"Panel 7\") {\n    ejeV = Math.round(msg.payload.EncMotor2_7 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_7 * 100) / 100;\n    msg.label=\"Posición actual del panel 7:\";\n} else if (panel == \"Panel 8\") {\n    ejeV = Math.round(msg.payload.EncMotor2_8 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_8 * 100) / 100;\n    msg.label=\"Posición actual del panel 8:\";\n} else if (panel == \"Panel 9\") {\n    ejeV = Math.round(msg.payload.EncMotor2_9 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_9 * 100) / 100;\n    msg.label=\"Posición actual del panel 9:\";\n} else if (panel == \"Panel 10\") {\n    ejeV = Math.round(msg.payload.EncMotor2_10 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_10 * 100) / 100;\n    msg.label=\"Posición actual del panel 10:\";\n} else if (panel == \"Panel 11\") {\n    ejeV = Math.round(msg.payload.EncMotor2_11 * 100) / 100;\n    ejeH = Math.round(msg.payload.EncMotor1_11 * 100) / 100;\n    msg.label=\"Posición actual del panel 11:\";\n}\n\nvar ejes=\"Inclinación \"+ejeV+\"º - Azimut \"+ejeH+\"º\";\n\nmsg.payload=ejes;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n//var historico = [];\n//global.set('historico', historico);",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 160,
+        "wires": [
+            [
+                "6f976b54ab890c1e"
+            ]
+        ]
+    },
+    {
+        "id": "6f976b54ab890c1e",
+        "type": "ui_text",
+        "z": "54086543c2b8b8d0",
+        "group": "87c523608bd5947c",
+        "order": 2,
+        "width": "10",
+        "height": "1",
+        "name": "",
+        "label": "{{msg.label}}",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 710,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a48ee1abb7bd16bb",
+        "type": "s7 in",
+        "z": "54086543c2b8b8d0",
+        "endpoint": "456c9bbf7f71106f",
+        "mode": "all",
+        "variable": "Sensor1",
+        "diff": true,
+        "name": "",
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "400f509302127b0a",
+                "77c573573dc9e9d8",
+                "b200af54057d8381",
+                "e73738d2ae619578",
+                "a18c4558209010a2",
+                "26a11b9c41318c9f",
+                "c114528be3870fab"
+            ]
+        ]
+    },
+    {
+        "id": "7c8ace0290d8d246",
+        "type": "ui_dropdown",
+        "z": "54086543c2b8b8d0",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Selecciona el panel a visualizar",
+        "group": "87c523608bd5947c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Panel 0",
+                "value": "Panel 0",
+                "type": "str"
+            },
+            {
+                "label": "Panel 1",
+                "value": "Panel 1",
+                "type": "str"
+            },
+            {
+                "label": "Panel 2",
+                "value": "Panel 2",
+                "type": "str"
+            },
+            {
+                "label": "Panel 3",
+                "value": "Panel 3",
+                "type": "str"
+            },
+            {
+                "label": "Panel 4",
+                "value": "Panel 4",
+                "type": "str"
+            },
+            {
+                "label": "Panel 5",
+                "value": "Panel 5",
+                "type": "str"
+            },
+            {
+                "label": "Panel 6",
+                "value": "Panel 6",
+                "type": "str"
+            },
+            {
+                "label": "Panel 7",
+                "value": "Panel 7",
+                "type": "str"
+            },
+            {
+                "label": "Panel 8",
+                "value": "Panel 8",
+                "type": "str"
+            },
+            {
+                "label": "Panel 9",
+                "value": "Panel 9",
+                "type": "str"
+            },
+            {
+                "label": "Panel 10",
+                "value": "Panel 10",
+                "type": "str"
+            },
+            {
+                "label": "Panel 11",
+                "value": "Panel 11",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 180,
+        "y": 640,
+        "wires": [
+            [
+                "782e6829b5a8c67b"
+            ]
+        ]
+    },
+    {
+        "id": "782e6829b5a8c67b",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Set selected panel",
+        "func": "global.set(\"panel\",msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2b4f6899ea267c4",
+        "type": "status",
+        "z": "54086543c2b8b8d0",
+        "name": "",
+        "scope": [
+            "a48ee1abb7bd16bb"
+        ],
+        "x": 720,
+        "y": 640,
+        "wires": [
+            [
+                "115a430a079a1af9"
+            ]
+        ]
+    },
+    {
+        "id": "115a430a079a1af9",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Verify PLC status",
+        "func": "var reset=global.get(\"resetnot\") || 0;\nif (msg.status.text === \"offline\"){\n    if(reset==0){\n        msg.payload=\"PLC no conectado\";\n        reset=1;\n        global.set(\"resetnot\",reset);\n        return msg;\n    }else{\n        reset++;\n        if (reset == 2){\n            reset=0;\n        }\n        global.set(\"resetnot\",reset);\n    }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set(\"resetnot\", -1);",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 640,
+        "wires": [
+            [
+                "4e9940b915a93c90"
+            ]
+        ]
+    },
+    {
+        "id": "4e9940b915a93c90",
+        "type": "ui_toast",
+        "z": "54086543c2b8b8d0",
+        "position": "top right",
+        "displayTime": "60",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1190,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "c114528be3870fab",
+        "type": "function",
+        "z": "54086543c2b8b8d0",
+        "name": "Verify PLC connection",
+        "func": "var sensor1=msg.payload.Sensor1;\nvar sensor2=msg.payload.Sensor2;\nvar sensor3=msg.payload.Sensor3;\nvar sensor4=msg.payload.Sensor4;\n\nif (sensor1>0 && sensor2>0 && sensor3>0 && sensor4>0){\n    global.set(\"plccon\", true);\n}else{\n    global.set(\"plccon\", false);\n} \n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6fe0690a670dc653",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Add alert",
+        "func": "var descripcion=msg.payload;\nvar criticidad=msg.crit;\nvar ide=msg.id;\n\nvar fecha=new Date();\n\nvar dia = fecha.getDate();\nvar mes = fecha.getMonth()+1; \nvar anio = fecha.getFullYear();\nvar horas = fecha.getHours();\nvar minutos = fecha.getMinutes();\nvar segundos = fecha.getSeconds();\n\nmsg.payload={\n    command: \"addRow\",\n    arguments: [\n        {\n            \"ID\":ide,\n            \"Descripción\": descripcion,\n            \"Criticidad\": criticidad,\n            \"Fecha\": `${dia < 10 ? '0' : ''}${dia}-${mes < 10 ? '0' : ''}${mes}-${anio} ${horas < 10 ? '0' : ''}${horas}:${minutos < 10 ? '0' : ''}${minutos}:${segundos < 10 ? '0' : ''}${segundos}`\n        },\n        true\n    ],\n    returnPromise: true\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 120,
+        "wires": [
+            [
+                "1918ae63fcc115db",
+                "3910a9053ea7cea5",
+                "562dadac5687a1db"
+            ]
+        ]
+    },
+    {
+        "id": "b631dbf0eb4d1d6b",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Create alert",
+        "func": "var id=global.get(\"ident\") || 0;\nvar connected=global.get(\"plccon\");\n\nvar vol = global.get(\"voltage\");\nvar volt = global.get(\"voltime\") || 0;\nvar voltb = global.get(\"voltbool\") || false;\n\nif (voltb){\n    volt++;\n    if (volt == 300){\n        volt = 0;\n        global.set(\"voltbool\", false);\n    }\n    global.set(\"voltime\", volt);\n}\n\nvar freq = global.get(\"freqe\");\nvar freqt = global.get(\"freqtime\") || 0;\nvar freqb = global.get(\"freqbool\") || false;\n\nif (freqb){\n    freqt++;\n    if (freqt == 300){\n        freqt = 0;\n        global.set(\"freqbool\", false);\n    }\n    global.set(\"freqtime\", freqt);\n}\n\nvar chg = global.get(\"cargando\");\nvar dchg = global.get(\"descargando\");\nvar chgt = global.get(\"chgtime\") || 0;\nvar chgb = global.get(\"chgbool\") || false;\n\nif (chgb) {\n    chgt++;\n    if (chgt == 300) {\n        chgt = 0;\n        global.set(\"chgbool\", false);\n    }\n    global.set(\"chgtime\", chgt);\n}\n\nvar wind = global.get(\"viento\");\nvar windt = global.get(\"wtime\") || 0;\nvar windb = global.get(\"wbool\") || false;\n\nif (windb) {\n    windt++;\n    if (windt == 300) {\n        windt = 0;\n        global.set(\"wbool\", false);\n    }\n    global.set(\"wtime\", windt);\n}\n\nvar windt2 = global.get(\"wtime2\") || 0;\nvar windb2 = global.get(\"wbool2\") || false;\n\nif (windb2) {\n    windt2++;\n    if (windt2 == 300) {\n        windt2 = 0;\n        global.set(\"wbool2\", false);\n    }\n    global.set(\"wtime2\", windt);\n}\n\nif (connected){\n    if(vol!=230 && volt==0){\n        msg.payload = 'Voltage inferior al permitido (Debe mantenerse en 230V)'\n        msg.crit = '#FF0000';\n        msg.id=id+1;\n        global.set(\"voltbool\", true);\n        global.set(\"ident\",id+1);\n        return msg;\n    }else if (freq&& freqt==0){\n        msg.payload = 'Frecuencia superior a la permitida (Debe mantenerse en 50Hz)'\n        msg.crit = '#FF0000';\n        msg.id=id+1;\n        global.set(\"voltbool\", true);\n        global.set(\"ident\",id+1);\n        return msg;\n    }else if (chg == true && dchg == true && chgt == 0){\n        msg.payload = 'Se estan cargando y descargando las baterías al mismo tiempo'\n        msg.crit = '#FFFF00';\n        msg.id = id + 1;\n        global.set(\"chgbool\", true);\n        global.set(\"ident\", id + 1);\n        return msg;\n    }else if (wind > 2 && wind < 5 && windt== 0){\n        msg.payload = 'Detectado viento superior a 2m/s'\n        msg.crit = '#00FF00';\n        msg.id = id + 1;\n        global.set(\"wbool\", true);\n        global.set(\"ident\", id + 1);\n        return msg;\n    }else if (wind > 5 && windt2== 0){\n        msg.payload = 'Detectado viento superior a 5m/s'\n        msg.crit = '#FFFF00';\n        msg.id = id + 1;\n        global.set(\"wbool2\", true);\n        global.set(\"ident\", id + 1);\n        return msg;\n    }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n//global.set(\"ident\", 0);",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 120,
+        "wires": [
+            [
+                "6fe0690a670dc653"
+            ]
+        ]
+    },
+    {
+        "id": "1918ae63fcc115db",
+        "type": "file",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "filename": "alert.log",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 780,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58c0115b487910a9",
+        "type": "ui_table",
+        "z": "22312e5729d3992e",
+        "group": "3c79198cfd2de7fa",
+        "name": "",
+        "order": 0,
+        "width": "35",
+        "height": "16",
+        "columns": [
+            {
+                "field": "ID",
+                "title": "ID",
+                "width": "5%",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Descripción",
+                "title": "Descripción",
+                "width": "70%",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Criticidad",
+                "title": "Criticidad",
+                "width": "10%",
+                "align": "center",
+                "formatter": "color",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Fecha",
+                "title": "Fecha y Hora",
+                "width": "15%",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 650,
+        "y": 300,
+        "wires": [
+            [
+                "e9b9fdf0883ba376"
+            ]
+        ]
+    },
+    {
+        "id": "b5af9fdc612be3c9",
+        "type": "file in",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "filename": "alert.log",
+        "filenameType": "str",
+        "format": "lines",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "utf8",
+        "allProps": true,
+        "x": 820,
+        "y": 220,
+        "wires": [
+            [
+                "84f39b5005bbf74c"
+            ]
+        ]
+    },
+    {
+        "id": "ea52d6d5069f7c86",
+        "type": "json",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1270,
+        "y": 220,
+        "wires": [
+            [
+                "3de7ff36cacefb29",
+                "58c0115b487910a9"
+            ]
+        ]
+    },
+    {
+        "id": "e49df186aa167dba",
+        "type": "inject",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "b631dbf0eb4d1d6b"
+            ]
+        ]
+    },
+    {
+        "id": "84f39b5005bbf74c",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Delete blank alerts",
+        "func": "var patata=msg.payload;\nif (msg.payload==\"\"){\n}else{\n    msg.payload=patata;\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 220,
+        "wires": [
+            [
+                "ea52d6d5069f7c86"
+            ]
+        ]
+    },
+    {
+        "id": "7271135c0ba1d696",
+        "type": "delay",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 220,
+        "wires": [
+            [
+                "b5af9fdc612be3c9",
+                "68c46bfbac281f4c"
+            ]
+        ]
+    },
+    {
+        "id": "e9b9fdf0883ba376",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "IdAlert to delete",
+        "func": "var unop = msg.payload.ID;\nif (msg.payload){\n    msg.payload=unop;\n    global.set(\"idtofilt\",unop);\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 380,
+        "wires": [
+            [
+                "1dbd7fa78509304a"
+            ]
+        ]
+    },
+    {
+        "id": "1dbd7fa78509304a",
+        "type": "file in",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "filename": "alert.log",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": true,
+        "x": 400,
+        "y": 380,
+        "wires": [
+            [
+                "a428d2d7fb6bc5e5"
+            ]
+        ]
+    },
+    {
+        "id": "a428d2d7fb6bc5e5",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Rewrite Alert.log",
+        "func": "var idfilter=global.get(\"idtofilt\");\n\nvar lines = msg.payload.split('\\n');\nvar lineCount = lines.length-2;\nglobal.set(\"numalert\",lineCount);\n\nvar filteredData = [];\n\nlines.forEach(function (line) {\n    try {\n        var obj = JSON.parse(line);\n        if (obj.arguments[0].ID !== idfilter) {\n            filteredData.push(obj);\n        }\n    } catch (error) {\n        // Puedes manejar errores de análisis JSON aquí si es necesario\n        console.error(\"Error parsing JSON:\", error);\n    }\n});\n\n// Re-agregar saltos de línea\nvar result = filteredData.map(function (obj) {\n    return JSON.stringify(obj) + '\\n';\n});\n\nmsg.payload = result.join('');\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 380,
+        "wires": [
+            [
+                "9428f3902fcba368"
+            ]
+        ]
+    },
+    {
+        "id": "9428f3902fcba368",
+        "type": "file",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "filename": "alert.log",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 780,
+        "y": 380,
+        "wires": [
+            [
+                "730ab14c2dd2cee8",
+                "436d26654fabfd50"
+            ]
+        ]
+    },
+    {
+        "id": "436d26654fabfd50",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Redirect to main",
+        "func": "msg.payload={\"tab\":\"Main\"}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 380,
+        "wires": [
+            [
+                "ad1f745d63ca9ae7",
+                "7271135c0ba1d696"
+            ]
+        ]
+    },
+    {
+        "id": "ad1f745d63ca9ae7",
+        "type": "ui_ui_control",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "events": "all",
+        "x": 1240,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "730ab14c2dd2cee8",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Deleted dialog",
+        "func": "var id=global.get(\"idtofilt\");\nmsg.payload=\"Se ha borrado la alerta ID: \"+id;\nmsg.topic=\"ALERTA ELIMINADA!\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 440,
+        "wires": [
+            [
+                "13a2e9f7e1e04f84",
+                "7601ef59852d5f42"
+            ]
+        ]
+    },
+    {
+        "id": "13a2e9f7e1e04f84",
+        "type": "ui_toast",
+        "z": "22312e5729d3992e",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1270,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "7ddab92d7920c7e8",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Get numAlert",
+        "func": "var lines = msg.payload.split('\\n');\nvar lineCount = lines.length-2;\nglobal.set(\"numalert\",lineCount);",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68c46bfbac281f4c",
+        "type": "file in",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "filename": "alert.log",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": true,
+        "x": 820,
+        "y": 180,
+        "wires": [
+            [
+                "7ddab92d7920c7e8"
+            ]
+        ]
+    },
+    {
+        "id": "33f4936dd9e4dd15",
+        "type": "ui_toast",
+        "z": "22312e5729d3992e",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "CANCEL",
+        "raw": false,
+        "className": "",
+        "topic": "Nueva alerta generada",
+        "name": "",
+        "x": 1030,
+        "y": 80,
+        "wires": [
+            [
+                "1905af6fbb703afc"
+            ]
+        ]
+    },
+    {
+        "id": "3910a9053ea7cea5",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Notification new alert",
+        "func": "msg.payload=\"¿Desea visualizar la alerta?\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 80,
+        "wires": [
+            [
+                "33f4936dd9e4dd15"
+            ]
+        ]
+    },
+    {
+        "id": "1905af6fbb703afc",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Redirect to Alertas",
+        "func": "if (msg.payload== \"OK\"){\n    msg.payload={\"tab\":\"Alertas\"}\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 80,
+        "wires": [
+            [
+                "1cb3e013e0ef7d75"
+            ]
+        ]
+    },
+    {
+        "id": "1cb3e013e0ef7d75",
+        "type": "ui_ui_control",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "events": "all",
+        "x": 100,
+        "y": 220,
+        "wires": [
+            [
+                "ac86eb9638c0bdbc"
+            ]
+        ]
+    },
+    {
+        "id": "ac86eb9638c0bdbc",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Reload alert table",
+        "func": "var alertatoy=global.get(\"alertatoy\") || 0;\nif (msg.name == \"Alertas\"){\n    if (alertatoy==0){\n        msg.payload=1;\n    }else{\n        msg.payload=0;\n    }\n    alertatoy=1;\n}else{\n    alertatoy=0;\n    msg.payload=0;\n}\nglobal.set(\"alertatoy\",alertatoy);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nglobal.set(\"alertatoy\",0);",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 220,
+        "wires": [
+            [
+                "f3dcae6b9017bb4f"
+            ]
+        ]
+    },
+    {
+        "id": "f3dcae6b9017bb4f",
+        "type": "switch",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 220,
+        "wires": [
+            [
+                "7271135c0ba1d696"
+            ]
+        ]
+    },
+    {
+        "id": "562dadac5687a1db",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Redirect to main",
+        "func": "var alertatoy=global.get(\"alertatoy\") || 0;\nif (alertatoy==1){\n    msg.payload={\"tab\":\"Main\"}\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 40,
+        "wires": [
+            [
+                "88fb6c3cdc6b5216"
+            ]
+        ]
+    },
+    {
+        "id": "88fb6c3cdc6b5216",
+        "type": "ui_ui_control",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "events": "all",
+        "x": 1020,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3de7ff36cacefb29",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Set IDmax",
+        "func": "var IDmax=global.get(\"ident\") || 0;\n\nif (IDmax < msg.payload.arguments[0].ID){\n    IDmax=msg.payload.arguments[0].ID;\n}\n\nglobal.set(\"ident\",IDmax);\nmsg.payload=IDmax;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7601ef59852d5f42",
+        "type": "delay",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1040,
+        "y": 520,
+        "wires": [
+            [
+                "cd542164d053038b"
+            ]
+        ]
+    },
+    {
+        "id": "cd542164d053038b",
+        "type": "function",
+        "z": "22312e5729d3992e",
+        "name": "Set PLC connected reset",
+        "func": "var reset=0;\nglobal.set(\"resetnot\",reset);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d487493fa2b98125",
+        "type": "inject",
+        "z": "22312e5729d3992e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 330,
+        "y": 280,
+        "wires": [
+            [
+                "7271135c0ba1d696"
+            ]
+        ]
+    },
+    {
+        "id": "dd61cba0c60c3faf",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "Sensor2",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "{{msg.label}}",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#9be2e4",
+            "#eebe86",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "555bb9eb3c391920",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "Sensor3",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 4,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "{{msg.label}}",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#9be2e4",
+            "#eebe86",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5cdfc8e7ff4f2904",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "Sensor4",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 5,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "{{msg.label}}",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#9be2e4",
+            "#eebe86",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "72fd7415e56bb6b8",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "EncMotor1",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 6,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "{{msg.label}}",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-360",
+        "max": "360",
+        "colors": [
+            "#323296",
+            "#323296",
+            "#323296"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "293afb1290f432b6",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "EncMotor2",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 7,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "{{msg.label}}",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-60",
+        "max": "60",
+        "colors": [
+            "#323296",
+            "#323296",
+            "#323296"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "6718bdcd032fc1eb",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "DB 1.24",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 8,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "DB 1.24 - Anenómetro",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#ca3838",
+            "#eebe86",
+            "#9be2e4"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "e7749a237c76b07f",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "DB 1.28",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 9,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "DB 1.28 - Hora",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "24",
+        "colors": [
+            "#03518c",
+            "#e6bf00",
+            "#4f4eb7"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "dfc321c4de3f7f58",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "DB 1.32",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 10,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "DB 1.32 - NivelBatería",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "82aeba0ad5d32e12",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Sensor1",
+        "func": "var iopanel=global.get(\"iopanel\") || \"Panel 0\";\n\nif (iopanel == \"Panel 0\"){\n    msg.payload = Math.round(msg.payload.Sensor1 * 100) / 100;\n    msg.label=\"DB 1.0 - Sensor 1\";\n} else if (iopanel == \"Panel 1\"){\n    msg.payload = Math.round(msg.payload.Sensor1_1 * 100) / 100;\n    msg.label=\"DB 1.40 - Sensor 1\";\n} else if (iopanel == \"Panel 2\") {\n    msg.payload = Math.round(msg.payload.Sensor1_2 * 100) / 100;\n    msg.label=\"DB 1.64 - Sensor 1\";\n} else if (iopanel == \"Panel 3\") {\n    msg.payload = Math.round(msg.payload.Sensor1_3 * 100) / 100;\n    msg.label=\"DB 1.88 - Sensor 1\";\n} else if (iopanel == \"Panel 4\") {\n    msg.payload = Math.round(msg.payload.Sensor1_4 * 100) / 100;\n    msg.label=\"DB 1.112 - Sensor 1\";\n} else if (iopanel == \"Panel 5\") {\n    msg.payload = Math.round(msg.payload.Sensor1_5 * 100) / 100;\n    msg.label=\"DB 1.136 - Sensor 1\";\n} else if (iopanel == \"Panel 6\") {\n    msg.payload = Math.round(msg.payload.Sensor1_6 * 100) / 100;\n    msg.label=\"DB 1.160 - Sensor 1\";\n} else if (iopanel == \"Panel 7\") {\n    msg.payload = Math.round(msg.payload.Sensor1_7 * 100) / 100;\n    msg.label=\"DB 1.184 - Sensor 1\";\n} else if (iopanel == \"Panel 8\") {\n    msg.payload = Math.round(msg.payload.Sensor1_8 * 100) / 100;\n    msg.label=\"DB 1.208 - Sensor 1\";\n} else if (iopanel == \"Panel 9\") {\n    msg.payload = Math.round(msg.payload.Sensor1_9 * 100) / 100;\n    msg.label=\"DB 1.232 - Sensor 1\";\n} else if (iopanel == \"Panel 10\") {\n    msg.payload = Math.round(msg.payload.Sensor1_10 * 100) / 100;\n    msg.label=\"DB 1.256 - Sensor 1\";\n} else if (iopanel == \"Panel 11\") {\n    msg.payload = Math.round(msg.payload.Sensor1_11 * 100) / 100;\n    msg.label=\"DB 1.280 - Sensor 1\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 40,
+        "wires": [
+            [
+                "fc63818af11742fa"
+            ]
+        ]
+    },
+    {
+        "id": "0c2c04e67119078f",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Sensor2",
+        "func": "var iopanel=global.get(\"iopanel\") || \"Panel 0\";\n\nif (iopanel == \"Panel 0\"){\n    msg.payload = Math.round(msg.payload.Sensor2 * 100) / 100;\n    msg.label=\"DB 1.4 - Sensor 2\";\n} else if (iopanel == \"Panel 1\"){\n    msg.payload = Math.round(msg.payload.Sensor2_1 * 100) / 100;\n    msg.label=\"DB 1.44 - Sensor 2\";\n} else if (iopanel == \"Panel 2\") {\n    msg.payload = Math.round(msg.payload.Sensor2_2 * 100) / 100;\n    msg.label=\"DB 1.68 - Sensor 2\";\n} else if (iopanel == \"Panel 3\") {\n    msg.payload = Math.round(msg.payload.Sensor2_3 * 100) / 100;\n    msg.label=\"DB 1.92 - Sensor 2\";\n} else if (iopanel == \"Panel 4\") {\n    msg.payload = Math.round(msg.payload.Sensor2_4 * 100) / 100;\n    msg.label=\"DB 1.116 - Sensor 2\";\n} else if (iopanel == \"Panel 5\") {\n    msg.payload = Math.round(msg.payload.Sensor2_5 * 100) / 100;\n    msg.label=\"DB 1.140 - Sensor 2\";\n} else if (iopanel == \"Panel 6\") {\n    msg.payload = Math.round(msg.payload.Sensor2_6 * 100) / 100;\n    msg.label=\"DB 1.164 - Sensor 2\";\n} else if (iopanel == \"Panel 7\") {\n    msg.payload = Math.round(msg.payload.Sensor2_7 * 100) / 100;\n    msg.label=\"DB 1.188 - Sensor 2\";\n} else if (iopanel == \"Panel 8\") {\n    msg.payload = Math.round(msg.payload.Sensor2_8 * 100) / 100;\n    msg.label=\"DB 1.212 - Sensor 2\";\n} else if (iopanel == \"Panel 9\") {\n    msg.payload = Math.round(msg.payload.Sensor2_9 * 100) / 100;\n    msg.label=\"DB 1.236 - Sensor 2\";\n} else if (iopanel == \"Panel 10\") {\n    msg.payload = Math.round(msg.payload.Sensor2_10 * 100) / 100;\n    msg.label=\"DB 1.260 - Sensor 2\";\n} else if (iopanel == \"Panel 11\") {\n    msg.payload = Math.round(msg.payload.Sensor2_11 * 100) / 100;\n    msg.label=\"DB 1.284 - Sensor 2\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 100,
+        "wires": [
+            [
+                "dd61cba0c60c3faf"
+            ]
+        ]
+    },
+    {
+        "id": "2ff6e80ce98d61fc",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Sensor3",
+        "func": "var iopanel=global.get(\"iopanel\") || \"Panel 0\";\n\nif (iopanel == \"Panel 0\"){\n    msg.payload = Math.round(msg.payload.Sensor3 * 100) / 100;\n    msg.label=\"DB 1.8 - Sensor 3\";\n} else if (iopanel == \"Panel 1\"){\n    msg.payload = Math.round(msg.payload.Sensor3_1 * 100) / 100;\n    msg.label=\"DB 1.48 - Sensor 3\";\n} else if (iopanel == \"Panel 2\") {\n    msg.payload = Math.round(msg.payload.Sensor3_2 * 100) / 100;\n    msg.label=\"DB 1.72 - Sensor 3\";\n} else if (iopanel == \"Panel 3\") {\n    msg.payload = Math.round(msg.payload.Sensor3_3 * 100) / 100;\n    msg.label=\"DB 1.96 - Sensor 3\";\n} else if (iopanel == \"Panel 4\") {\n    msg.payload = Math.round(msg.payload.Sensor3_4 * 100) / 100;\n    msg.label=\"DB 1.120 - Sensor 3\";\n} else if (iopanel == \"Panel 5\") {\n    msg.payload = Math.round(msg.payload.Sensor3_5 * 100) / 100;\n    msg.label=\"DB 1.144 - Sensor 3\";\n} else if (iopanel == \"Panel 6\") {\n    msg.payload = Math.round(msg.payload.Sensor3_6 * 100) / 100;\n    msg.label=\"DB 1.168 - Sensor 3\";\n} else if (iopanel == \"Panel 7\") {\n    msg.payload = Math.round(msg.payload.Sensor3_7 * 100) / 100;\n    msg.label=\"DB 1.192 - Sensor 3\";\n} else if (iopanel == \"Panel 8\") {\n    msg.payload = Math.round(msg.payload.Sensor3_8 * 100) / 100;\n    msg.label=\"DB 1.216 - Sensor 3\";\n} else if (iopanel == \"Panel 9\") {\n    msg.payload = Math.round(msg.payload.Sensor3_9 * 100) / 100;\n    msg.label=\"DB 1.240 - Sensor 3\";\n} else if (iopanel == \"Panel 10\") {\n    msg.payload = Math.round(msg.payload.Sensor3_10 * 100) / 100;\n    msg.label=\"DB 1.264 - Sensor 3\";\n} else if (iopanel == \"Panel 11\") {\n    msg.payload = Math.round(msg.payload.Sensor3_11 * 100) / 100;\n    msg.label=\"DB 1.288 - Sensor 3\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "555bb9eb3c391920"
+            ]
+        ]
+    },
+    {
+        "id": "022514d149b72f79",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Sensor4",
+        "func": "var iopanel=global.get(\"iopanel\") || \"Panel 0\";\n\nif (iopanel == \"Panel 0\"){\n    msg.payload = Math.round(msg.payload.Sensor4 * 100) / 100;\n    msg.label=\"DB 1.12 - Sensor 4\";\n} else if (iopanel == \"Panel 1\"){\n    msg.payload = Math.round(msg.payload.Sensor4_1 * 100) / 100;\n    msg.label=\"DB 1.52 - Sensor 4\";\n} else if (iopanel == \"Panel 2\") {\n    msg.payload = Math.round(msg.payload.Sensor4_2 * 100) / 100;\n    msg.label=\"DB 1.76 - Sensor 4\";\n} else if (iopanel == \"Panel 3\") {\n    msg.payload = Math.round(msg.payload.Sensor4_3 * 100) / 100;\n    msg.label=\"DB 1.100 - Sensor 4\";\n} else if (iopanel == \"Panel 4\") {\n    msg.payload = Math.round(msg.payload.Sensor4_4 * 100) / 100;\n    msg.label=\"DB 1.124 - Sensor 4\";\n} else if (iopanel == \"Panel 5\") {\n    msg.payload = Math.round(msg.payload.Sensor4_5 * 100) / 100;\n    msg.label=\"DB 1.148 - Sensor 4\";\n} else if (iopanel == \"Panel 6\") {\n    msg.payload = Math.round(msg.payload.Sensor4_6 * 100) / 100;\n    msg.label=\"DB 1.172 - Sensor 4\";\n} else if (iopanel == \"Panel 7\") {\n    msg.payload = Math.round(msg.payload.Sensor4_7 * 100) / 100;\n    msg.label=\"DB 1.196 - Sensor 4\";\n} else if (iopanel == \"Panel 8\") {\n    msg.payload = Math.round(msg.payload.Sensor4_8 * 100) / 100;\n    msg.label=\"DB 1.220 - Sensor 4\";\n} else if (iopanel == \"Panel 9\") {\n    msg.payload = Math.round(msg.payload.Sensor4_9 * 100) / 100;\n    msg.label=\"DB 1.244 - Sensor 4\";\n} else if (iopanel == \"Panel 10\") {\n    msg.payload = Math.round(msg.payload.Sensor4_10 * 100) / 100;\n    msg.label=\"DB 1.268 - Sensor 4\";\n} else if (iopanel == \"Panel 11\") {\n    msg.payload = Math.round(msg.payload.Sensor4_11 * 100) / 100;\n    msg.label=\"DB 1.292 - Sensor 4\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 220,
+        "wires": [
+            [
+                "5cdfc8e7ff4f2904"
+            ]
+        ]
+    },
+    {
+        "id": "e586590a8414ebd1",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get EncMotor2",
+        "func": "var iopanel=global.get(\"iopanel\") || \"Panel 0\";\n\nif (iopanel == \"Panel 0\"){\n    msg.payload = Math.round(msg.payload.EncMotor2 * 100) / 100;\n    msg.label = \"DB 1.20 - EncMotor2\";\n} else if (iopanel == \"Panel 1\"){\n    msg.payload = Math.round(msg.payload.EncMotor2_1 * 100) / 100;\n    msg.label = \"DB 1.60 - EncMotor2\";\n} else if (iopanel == \"Panel 2\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_2 * 100) / 100;\n    msg.label = \"DB 1.84 - EncMotor2\";\n} else if (iopanel == \"Panel 3\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_3 * 100) / 100;\n    msg.label = \"DB 1.108 - EncMotor2\";\n} else if (iopanel == \"Panel 4\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_4 * 100) / 100;\n    msg.label = \"DB 1.132 - EncMotor2\";\n} else if (iopanel == \"Panel 5\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_5 * 100) / 100;\n    msg.label = \"DB 1.156 - EncMotor2\";\n} else if (iopanel == \"Panel 6\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_6 * 100) / 100;\n    msg.label = \"DB 1.180 - EncMotor2\";\n} else if (iopanel == \"Panel 7\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_7 * 100) / 100;\n    msg.label = \"DB 1.204 - EncMotor2\";\n} else if (iopanel == \"Panel 8\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_8 * 100) / 100;\n    msg.label = \"DB 1.228 - EncMotor2\";\n} else if (iopanel == \"Panel 9\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_9 * 100) / 100;\n    msg.label = \"DB 1.252 - EncMotor2\";\n} else if (iopanel == \"Panel 10\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_10 * 100) / 100;\n    msg.label = \"DB 1.276 - EncMotor2\";\n} else if (iopanel == \"Panel 11\") {\n    msg.payload = Math.round(msg.payload.EncMotor2_11 * 100) / 100;\n    msg.label = \"DB 1.300 - EncMotor2\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 340,
+        "wires": [
+            [
+                "293afb1290f432b6"
+            ]
+        ]
+    },
+    {
+        "id": "7b2d399472c0259b",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Anemometro",
+        "func": "var viento=Math.round(msg.payload.Anemometro * 100) / 100;\nmsg.payload=viento;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 400,
+        "wires": [
+            [
+                "6718bdcd032fc1eb"
+            ]
+        ]
+    },
+    {
+        "id": "3a6e1ad21bddfe5b",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Hora24Format",
+        "func": "var hora=msg.payload.Hora24Format;\nmsg.payload=hora;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 460,
+        "wires": [
+            [
+                "e7749a237c76b07f"
+            ]
+        ]
+    },
+    {
+        "id": "611e14cbea0f6548",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get NivelBateria",
+        "func": "var bateria=Math.round(msg.payload.NivelBateria * 100) / 100;\nmsg.payload=bateria;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 520,
+        "wires": [
+            [
+                "dfc321c4de3f7f58"
+            ]
+        ]
+    },
+    {
+        "id": "29b99b9b217c3e34",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Voltage",
+        "func": "var vvv = Math.round(msg.payload.Voltage * 100) / 100;\n\nglobal.set(\"voltage\",vvv);\nmsg.payload=vvv;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 580,
+        "wires": [
+            [
+                "b2ea8e0f0a8ddcb0"
+            ]
+        ]
+    },
+    {
+        "id": "2969a7ebe0a71144",
+        "type": "s7 in",
+        "z": "0f45c8dc3581baaa",
+        "endpoint": "456c9bbf7f71106f",
+        "mode": "all",
+        "variable": "Sensor1",
+        "diff": true,
+        "name": "",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "82aeba0ad5d32e12",
+                "0c2c04e67119078f",
+                "2ff6e80ce98d61fc",
+                "022514d149b72f79",
+                "e586590a8414ebd1",
+                "7b2d399472c0259b",
+                "3a6e1ad21bddfe5b",
+                "611e14cbea0f6548",
+                "29b99b9b217c3e34",
+                "a64a2029050cbef5",
+                "462b422f5476a495",
+                "4b6a17a77ddb4cc3",
+                "54507b39cf983a7f",
+                "7dd6844d48a6fd9b",
+                "49c96b0fa294fba3",
+                "0acdead1390c1047",
+                "3978c553ff086959",
+                "78124ad813f66a01",
+                "db75bfc9b76a25e6",
+                "232647edf4873806",
+                "7118685d37dde41d"
+            ]
+        ]
+    },
+    {
+        "id": "397a83a2d10def84",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 1,
+        "group": "b099f5e9eaec7d3b",
+        "width": 0,
+        "height": 0,
+        "label": "{{msg.label}}",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Q2.0",
+        "x": 970,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "7f1ae78ae7c0f2f5",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 2,
+        "group": "b099f5e9eaec7d3b",
+        "width": 0,
+        "height": 0,
+        "label": "{{msg.label}}",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Q2.1",
+        "x": 970,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b06052663d3b197c",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 3,
+        "group": "b099f5e9eaec7d3b",
+        "width": 0,
+        "height": 0,
+        "label": "{{msg.label}}",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Q2.2",
+        "x": 970,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "14f648c2cc87af81",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 4,
+        "group": "b099f5e9eaec7d3b",
+        "width": 0,
+        "height": 0,
+        "label": "{{msg.label}}",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Q2.3",
+        "x": 970,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a64a2029050cbef5",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Motor1",
+        "func": "var io2panel=global.get(\"io2panel\") || \"Panel 0\";\n\nif (io2panel == \"Panel 0\"){\n    msg.payload = msg.payload.Motor1;\n    msg.label=\"Q2.0 - Motor1\";\n} else if (io2panel == \"Panel 1\"){\n    msg.payload = msg.payload.Motor1_1;\n    msg.label=\"Q2.7 - Motor1\";\n} else if (io2panel == \"Panel 2\") {\n    msg.payload = msg.payload.Motor1_2;\n    msg.label=\"Q3.3 - Motor1\";\n} else if (io2panel == \"Panel 3\") {\n    msg.payload = msg.payload.Motor1_3;\n    msg.label=\"Q3.7 - Motor1\";\n} else if (io2panel == \"Panel 4\") {\n    msg.payload = msg.payload.Motor1_4;\n    msg.label=\"Q4.3 - Motor1\";\n} else if (io2panel == \"Panel 5\") {\n    msg.payload = msg.payload.Motor1_5;\n    msg.label=\"Q4.7 - Motor1\";\n} else if (io2panel == \"Panel 6\") {\n    msg.payload = msg.payload.Motor1_6;\n    msg.label=\"Q5.3 - Motor1\";\n} else if (io2panel == \"Panel 7\") {\n    msg.payload = msg.payload.Motor1_7;\n    msg.label=\"Q5.7 - Motor1\";\n} else if (io2panel == \"Panel 8\") {\n    msg.payload = msg.payload.Motor1_8;\n    msg.label=\"Q6.3 - Motor1\";\n} else if (io2panel == \"Panel 9\") {\n    msg.payload = msg.payload.Motor1;\n    msg.label=\"Q6.7 - Motor1\";\n} else if (io2panel == \"Panel 10\") {\n    msg.payload = msg.payload.Motor1_10;\n    msg.label=\"Q7.3 - Motor1\";\n} else if (io2panel == \"Panel 11\") {\n    msg.payload = msg.payload.Motor1_11;\n    msg.label=\"Q7.7 - Motor1\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 40,
+        "wires": [
+            [
+                "397a83a2d10def84"
+            ]
+        ]
+    },
+    {
+        "id": "75c08ed6d8394567",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 1,
+        "group": "189272fc807c74a0",
+        "width": 0,
+        "height": 0,
+        "label": "I2.0 - Carga",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "I2.0",
+        "x": 970,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "4ffabd8c8d608556",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 5,
+        "group": "b099f5e9eaec7d3b",
+        "width": 0,
+        "height": 0,
+        "label": "Q2.4 - Cargar",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Q2.4",
+        "x": 970,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "78758c473d0bbea9",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 6,
+        "group": "b099f5e9eaec7d3b",
+        "width": 0,
+        "height": 0,
+        "label": "Q2.5 - Descargar",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Q2.5",
+        "x": 970,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "863b7ee2280ab507",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 7,
+        "group": "b099f5e9eaec7d3b",
+        "width": 0,
+        "height": 0,
+        "label": "Q2.6 - SelFreq",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Q2.6",
+        "x": 970,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "691da794273bd375",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 2,
+        "group": "189272fc807c74a0",
+        "width": 0,
+        "height": 0,
+        "label": "I2.1 - Descarga",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "I2.1",
+        "x": 970,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ef49f3eb2638503f",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 3,
+        "group": "189272fc807c74a0",
+        "width": 0,
+        "height": 0,
+        "label": "I2.2 - StopCarga",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "I2.2",
+        "x": 970,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5a497c793434ec78",
+        "type": "ui_led",
+        "z": "0f45c8dc3581baaa",
+        "order": 4,
+        "group": "189272fc807c74a0",
+        "width": 0,
+        "height": 0,
+        "label": "I2.3 - ButtonFreq",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "I2.3",
+        "x": 970,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b2ea8e0f0a8ddcb0",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "DB 2.0",
+        "group": "dba9099c0c0dd835",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "DB 2.0 - Voltage",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "230",
+        "colors": [
+            "#93311f",
+            "#8a9f1d",
+            "#7d5bbe"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 570,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "462b422f5476a495",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Motor1Inv",
+        "func": "var io2panel=global.get(\"io2panel\") || \"Panel 0\";\n\nif (io2panel == \"Panel 0\"){\n    msg.payload = msg.payload.Motor1Inv;\n    msg.label=\"Q2.1 - Motor1Inv\";\n} else if (io2panel == \"Panel 1\"){\n    msg.payload = msg.payload.Motor1Inv_1;\n    msg.label=\"Q3.0 - Motor1Inv\";\n} else if (io2panel == \"Panel 2\") {\n    msg.payload = msg.payload.Motor1Inv_2;\n    msg.label=\"Q3.4 - Motor1Inv\";\n} else if (io2panel == \"Panel 3\") {\n    msg.payload = msg.payload.Motor1Inv_3;\n    msg.label=\"Q4.0 - Motor1Inv\";\n} else if (io2panel == \"Panel 4\") {\n    msg.payload = msg.payload.Motor1Inv_4;\n    msg.label=\"Q4.4 - Motor1Inv\";\n} else if (io2panel == \"Panel 5\") {\n    msg.payload = msg.payload.Motor1Inv_5;\n    msg.label=\"Q5.0 - Motor1Inv\";\n} else if (io2panel == \"Panel 6\") {\n    msg.payload = msg.payload.Motor1Inv_6;\n    msg.label=\"Q5.4 - Motor1Inv\";\n} else if (io2panel == \"Panel 7\") {\n    msg.payload = msg.payload.Motor1Inv_7;\n    msg.label=\"Q6.0 - Motor1Inv\";\n} else if (io2panel == \"Panel 8\") {\n    msg.payload = msg.payload.Motor1Inv_8;\n    msg.label=\"Q6.4 - Motor1Inv\";\n} else if (io2panel == \"Panel 9\") {\n    msg.payload = msg.payload.Motor1Inv_9;\n    msg.label=\"Q7.0 - Motor1Inv\";\n} else if (io2panel == \"Panel 10\") {\n    msg.payload = msg.payload.Motor1Inv_10;\n    msg.label=\"Q7.4 - Motor1Inv\";\n} else if (io2panel == \"Panel 11\") {\n    msg.payload = msg.payload.Motor1Inv_11;\n    msg.label=\"Q8.0 - Motor1Inv\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 80,
+        "wires": [
+            [
+                "7f1ae78ae7c0f2f5"
+            ]
+        ]
+    },
+    {
+        "id": "4b6a17a77ddb4cc3",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Motor2",
+        "func": "var io2panel=global.get(\"io2panel\") || \"Panel 0\";\n\nif (io2panel == \"Panel 0\"){\n    msg.payload = msg.payload.Motor2;\n    msg.label=\"Q2.2 - Motor2\";\n} else if (io2panel == \"Panel 1\"){\n    msg.payload = msg.payload.Motor2_1;\n    msg.label=\"Q3.1 - Motor2\";\n} else if (io2panel == \"Panel 2\") {\n    msg.payload = msg.payload.Motor2_2;\n    msg.label=\"Q3.5 - Motor2\";\n} else if (io2panel == \"Panel 3\") {\n    msg.payload = msg.payload.Motor2_3;\n    msg.label=\"Q4.1 - Motor2\";\n} else if (io2panel == \"Panel 4\") {\n    msg.payload = msg.payload.Motor2_4;\n    msg.label=\"Q4.5 - Motor2\";\n} else if (io2panel == \"Panel 5\") {\n    msg.payload = msg.payload.Motor2_5;\n    msg.label=\"Q5.1 - Motor2\";\n} else if (io2panel == \"Panel 6\") {\n    msg.payload = msg.payload.Motor2_6;\n    msg.label=\"Q5.5 - Motor2\";\n} else if (io2panel == \"Panel 7\") {\n    msg.payload = msg.payload.Motor2_7;\n    msg.label=\"Q6.1 - Motor2\";\n} else if (io2panel == \"Panel 8\") {\n    msg.payload = msg.payload.Motor2_8;\n    msg.label=\"Q6.5 - Motor2\";\n} else if (io2panel == \"Panel 9\") {\n    msg.payload = msg.payload.Motor2_9;\n    msg.label=\"Q7.1 - Motor2\";\n} else if (io2panel == \"Panel 10\") {\n    msg.payload = msg.payload.Motor2_10;\n    msg.label=\"Q7.5 - Motor2\";\n} else if (io2panel == \"Panel 11\") {\n    msg.payload = msg.payload.Motor2_11;\n    msg.label=\"Q8.1 - Motor2\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 120,
+        "wires": [
+            [
+                "b06052663d3b197c"
+            ]
+        ]
+    },
+    {
+        "id": "54507b39cf983a7f",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Motor2Inv",
+        "func": "var io2panel=global.get(\"io2panel\") || \"Panel 0\";\n\nif (io2panel == \"Panel 0\"){\n    msg.payload = msg.payload.Motor2Inv;\n    msg.label=\"Q2.3 - Motor2Inv\";\n} else if (io2panel == \"Panel 1\"){\n    msg.payload = msg.payload.Motor2Inv_1;\n    msg.label=\"Q3.2 - Motor2Inv\";\n} else if (io2panel == \"Panel 2\") {\n    msg.payload = msg.payload.Motor2Inv_2;\n    msg.label=\"Q3.6 - Motor2Inv\";\n} else if (io2panel == \"Panel 3\") {\n    msg.payload = msg.payload.Motor2Inv_3;\n    msg.label=\"Q4.2 - Motor2Inv\";\n} else if (io2panel == \"Panel 4\") {\n    msg.payload = msg.payload.Motor2Inv_4;\n    msg.label=\"Q4.6 - Motor2Inv\";\n} else if (io2panel == \"Panel 5\") {\n    msg.payload = msg.payload.Motor2Inv_5;\n    msg.label=\"Q5.2 - Motor2Inv\";\n} else if (io2panel == \"Panel 6\") {\n    msg.payload = msg.payload.Motor2Inv_6;\n    msg.label=\"Q5.6 - Motor2Inv\";\n} else if (io2panel == \"Panel 7\") {\n    msg.payload = msg.payload.Motor2Inv_7;\n    msg.label=\"Q6.2 - Motor2Inv\";\n} else if (io2panel == \"Panel 8\") {\n    msg.payload = msg.payload.Motor2Inv_8;\n    msg.label=\"Q6.6 - Motor2Inv\";\n} else if (io2panel == \"Panel 9\") {\n    msg.payload = msg.payload.Motor2Inv_9;\n    msg.label=\"Q7.2 - Motor2Inv\";\n} else if (io2panel == \"Panel 10\") {\n    msg.payload = msg.payload.Motor2Inv_10;\n    msg.label=\"Q7.6 - Motor2Inv\";\n} else if (io2panel == \"Panel 11\") {\n    msg.payload = msg.payload.Motor2Inv_11;\n    msg.label=\"Q8.2 - Motor2Inv\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 160,
+        "wires": [
+            [
+                "14f648c2cc87af81"
+            ]
+        ]
+    },
+    {
+        "id": "7dd6844d48a6fd9b",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Cargar",
+        "func": "var chg=msg.payload.Cargar;\nmsg.payload=chg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 200,
+        "wires": [
+            [
+                "4ffabd8c8d608556"
+            ]
+        ]
+    },
+    {
+        "id": "49c96b0fa294fba3",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Descargar",
+        "func": "var dichg=msg.payload.Descargar;\nmsg.payload=dichg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 240,
+        "wires": [
+            [
+                "78758c473d0bbea9"
+            ]
+        ]
+    },
+    {
+        "id": "0acdead1390c1047",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get SelFreq",
+        "func": "var freqd=msg.payload.SelFreq;\nmsg.payload=freqd;\nglobal.set(\"freqe\",freqd);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 280,
+        "wires": [
+            [
+                "863b7ee2280ab507"
+            ]
+        ]
+    },
+    {
+        "id": "3978c553ff086959",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Carga",
+        "func": "var chbateria=msg.payload.Carga;\nmsg.payload=chbateria;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 340,
+        "wires": [
+            [
+                "75c08ed6d8394567"
+            ]
+        ]
+    },
+    {
+        "id": "78124ad813f66a01",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get Descarga",
+        "func": "var desbateria=msg.payload.Descarga;\nmsg.payload = desbateria;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 380,
+        "wires": [
+            [
+                "691da794273bd375"
+            ]
+        ]
+    },
+    {
+        "id": "db75bfc9b76a25e6",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get StopCarga",
+        "func": "var bateria=msg.payload.StopCarga;\nif (bateria === true) {\n    msg.payload = false;\n} else {\n    msg.payload = true;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 420,
+        "wires": [
+            [
+                "ef49f3eb2638503f"
+            ]
+        ]
+    },
+    {
+        "id": "232647edf4873806",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get ButtonFreq",
+        "func": "var buttf=msg.payload.ButtonFreq;\nmsg.payload=buttf;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 460,
+        "wires": [
+            [
+                "5a497c793434ec78"
+            ]
+        ]
+    },
+    {
+        "id": "fc63818af11742fa",
+        "type": "ui_gauge",
+        "z": "0f45c8dc3581baaa",
+        "name": "Sensor1",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "{{msg.label}}",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100      ",
+        "colors": [
+            "#9be2e4",
+            "#eebe86",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "7118685d37dde41d",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Get EncMotor1",
+        "func": "var iopanel=global.get(\"iopanel\") || \"Panel 0\";\n\nif (iopanel == \"Panel 0\"){\n    msg.payload = Math.round(msg.payload.EncMotor1 * 100) / 100;\n    msg.label=\"DB 1.16 - EncMotor1\";\n} else if (iopanel == \"Panel 1\"){\n    msg.payload = Math.round(msg.payload.EncMotor1_1 * 100) / 100;\n    msg.label = \"DB 1.56 - EncMotor1\";\n} else if (iopanel == \"Panel 2\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_2 * 100) / 100;\n    msg.label = \"DB 1.80 - EncMotor1\";\n} else if (iopanel == \"Panel 3\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_3 * 100) / 100;\n    msg.label = \"DB 1.104 - EncMotor1\";\n} else if (iopanel == \"Panel 4\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_4 * 100) / 100;\n    msg.label = \"DB 1.128 - EncMotor1\";\n} else if (iopanel == \"Panel 5\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_5 * 100) / 100;\n    msg.label = \"DB 1.152 - EncMotor1\";\n} else if (iopanel == \"Panel 6\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_6 * 100) / 100;\n    msg.label = \"DB 1.176 - EncMotor1\";\n} else if (iopanel == \"Panel 7\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_7 * 100) / 100;\n    msg.label = \"DB 1.200 - EncMotor1\";\n} else if (iopanel == \"Panel 8\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_8 * 100) / 100;\n    msg.label = \"DB 1.224 - EncMotor1\";\n} else if (iopanel == \"Panel 9\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_9 * 100) / 100;\n    msg.label = \"DB 1.248 - EncMotor1\";\n} else if (iopanel == \"Panel 10\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_10 * 100) / 100;\n    msg.label = \"DB 1.272 - EncMotor1\";\n} else if (iopanel == \"Panel 11\") {\n    msg.payload = Math.round(msg.payload.EncMotor1_11 * 100) / 100;\n    msg.label = \"DB 1.296 - EncMotor1\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 280,
+        "wires": [
+            [
+                "72fd7415e56bb6b8"
+            ]
+        ]
+    },
+    {
+        "id": "3408793ea1d88863",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Set selected IO Panel",
+        "func": "global.set(\"iopanel\",msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "90c4cee63832e884",
+        "type": "ui_dropdown",
+        "z": "0f45c8dc3581baaa",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Seleccione el panel para visualizar sus entradas analogicas y salidas digitales asociadas (Panel 0 por defecto)",
+        "group": "e8bc6a2ce16e53f3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Panel 0",
+                "value": "Panel 0",
+                "type": "str"
+            },
+            {
+                "label": "Panel 1",
+                "value": "Panel 1",
+                "type": "str"
+            },
+            {
+                "label": "Panel 2",
+                "value": "Panel 2",
+                "type": "str"
+            },
+            {
+                "label": "Panel 3",
+                "value": "Panel 3",
+                "type": "str"
+            },
+            {
+                "label": "Panel 4",
+                "value": "Panel 4",
+                "type": "str"
+            },
+            {
+                "label": "Panel 5",
+                "value": "Panel 5",
+                "type": "str"
+            },
+            {
+                "label": "Panel 6",
+                "value": "Panel 6",
+                "type": "str"
+            },
+            {
+                "label": "Panel 7",
+                "value": "Panel 7",
+                "type": "str"
+            },
+            {
+                "label": "Panel 8",
+                "value": "Panel 8",
+                "type": "str"
+            },
+            {
+                "label": "Panel 9",
+                "value": "Panel 9",
+                "type": "str"
+            },
+            {
+                "label": "Panel 10",
+                "value": "Panel 10",
+                "type": "str"
+            },
+            {
+                "label": "Panel 11",
+                "value": "Panel 11",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 380,
+        "y": 660,
+        "wires": [
+            [
+                "3408793ea1d88863",
+                "192704d2f03d8be7"
+            ]
+        ]
+    },
+    {
+        "id": "192704d2f03d8be7",
+        "type": "function",
+        "z": "0f45c8dc3581baaa",
+        "name": "Set selected IO2 Panel",
+        "func": "global.set(\"io2panel\",msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    }
+]
